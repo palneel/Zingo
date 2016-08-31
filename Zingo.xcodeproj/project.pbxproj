@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		593D6D9D1D777C99009121A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593D6D9C1D777C99009121A7 /* AppDelegate.swift */; };
+		593D6D9F1D777C99009121A7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593D6D9E1D777C99009121A7 /* ViewController.swift */; };
+		593D6DA21D777C99009121A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 593D6DA01D777C99009121A7 /* Main.storyboard */; };
+		593D6DA41D777C99009121A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 593D6DA31D777C99009121A7 /* Assets.xcassets */; };
+		593D6DA71D777C99009121A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 593D6DA51D777C99009121A7 /* LaunchScreen.storyboard */; };
+		593D6DB21D777C99009121A7 /* ZingoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593D6DB11D777C99009121A7 /* ZingoTests.swift */; };
+		593D6DBD1D777C99009121A7 /* ZingoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593D6DBC1D777C99009121A7 /* ZingoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		593D6DAE1D777C99009121A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 593D6D911D777C98009121A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 593D6D981D777C98009121A7;
+			remoteInfo = Zingo;
+		};
+		593D6DB91D777C99009121A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 593D6D911D777C98009121A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 593D6D981D777C98009121A7;
+			remoteInfo = Zingo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		593D6D991D777C98009121A7 /* Zingo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zingo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		593D6D9C1D777C99009121A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		593D6D9E1D777C99009121A7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		593D6DA11D777C99009121A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		593D6DA31D777C99009121A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		593D6DA61D777C99009121A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		593D6DA81D777C99009121A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		593D6DAD1D777C99009121A7 /* ZingoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZingoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		593D6DB11D777C99009121A7 /* ZingoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZingoTests.swift; sourceTree = "<group>"; };
+		593D6DB31D777C99009121A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		593D6DB81D777C99009121A7 /* ZingoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZingoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		593D6DBC1D777C99009121A7 /* ZingoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZingoUITests.swift; sourceTree = "<group>"; };
+		593D6DBE1D777C99009121A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		593D6D961D777C98009121A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		593D6DAA1D777C99009121A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		593D6DB51D777C99009121A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		593D6D901D777C98009121A7 = {
+			isa = PBXGroup;
+			children = (
+				593D6D9B1D777C99009121A7 /* Zingo */,
+				593D6DB01D777C99009121A7 /* ZingoTests */,
+				593D6DBB1D777C99009121A7 /* ZingoUITests */,
+				593D6D9A1D777C98009121A7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		593D6D9A1D777C98009121A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				593D6D991D777C98009121A7 /* Zingo.app */,
+				593D6DAD1D777C99009121A7 /* ZingoTests.xctest */,
+				593D6DB81D777C99009121A7 /* ZingoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		593D6D9B1D777C99009121A7 /* Zingo */ = {
+			isa = PBXGroup;
+			children = (
+				593D6D9C1D777C99009121A7 /* AppDelegate.swift */,
+				593D6D9E1D777C99009121A7 /* ViewController.swift */,
+				593D6DA01D777C99009121A7 /* Main.storyboard */,
+				593D6DA31D777C99009121A7 /* Assets.xcassets */,
+				593D6DA51D777C99009121A7 /* LaunchScreen.storyboard */,
+				593D6DA81D777C99009121A7 /* Info.plist */,
+			);
+			path = Zingo;
+			sourceTree = "<group>";
+		};
+		593D6DB01D777C99009121A7 /* ZingoTests */ = {
+			isa = PBXGroup;
+			children = (
+				593D6DB11D777C99009121A7 /* ZingoTests.swift */,
+				593D6DB31D777C99009121A7 /* Info.plist */,
+			);
+			path = ZingoTests;
+			sourceTree = "<group>";
+		};
+		593D6DBB1D777C99009121A7 /* ZingoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				593D6DBC1D777C99009121A7 /* ZingoUITests.swift */,
+				593D6DBE1D777C99009121A7 /* Info.plist */,
+			);
+			path = ZingoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		593D6D981D777C98009121A7 /* Zingo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 593D6DC11D777C99009121A7 /* Build configuration list for PBXNativeTarget "Zingo" */;
+			buildPhases = (
+				593D6D951D777C98009121A7 /* Sources */,
+				593D6D961D777C98009121A7 /* Frameworks */,
+				593D6D971D777C98009121A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Zingo;
+			productName = Zingo;
+			productReference = 593D6D991D777C98009121A7 /* Zingo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		593D6DAC1D777C99009121A7 /* ZingoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 593D6DC41D777C99009121A7 /* Build configuration list for PBXNativeTarget "ZingoTests" */;
+			buildPhases = (
+				593D6DA91D777C99009121A7 /* Sources */,
+				593D6DAA1D777C99009121A7 /* Frameworks */,
+				593D6DAB1D777C99009121A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				593D6DAF1D777C99009121A7 /* PBXTargetDependency */,
+			);
+			name = ZingoTests;
+			productName = ZingoTests;
+			productReference = 593D6DAD1D777C99009121A7 /* ZingoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		593D6DB71D777C99009121A7 /* ZingoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 593D6DC71D777C99009121A7 /* Build configuration list for PBXNativeTarget "ZingoUITests" */;
+			buildPhases = (
+				593D6DB41D777C99009121A7 /* Sources */,
+				593D6DB51D777C99009121A7 /* Frameworks */,
+				593D6DB61D777C99009121A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				593D6DBA1D777C99009121A7 /* PBXTargetDependency */,
+			);
+			name = ZingoUITests;
+			productName = ZingoUITests;
+			productReference = 593D6DB81D777C99009121A7 /* ZingoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		593D6D911D777C98009121A7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Grafikos;
+				TargetAttributes = {
+					593D6D981D777C98009121A7 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					593D6DAC1D777C99009121A7 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 593D6D981D777C98009121A7;
+					};
+					593D6DB71D777C99009121A7 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 593D6D981D777C98009121A7;
+					};
+				};
+			};
+			buildConfigurationList = 593D6D941D777C98009121A7 /* Build configuration list for PBXProject "Zingo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 593D6D901D777C98009121A7;
+			productRefGroup = 593D6D9A1D777C98009121A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				593D6D981D777C98009121A7 /* Zingo */,
+				593D6DAC1D777C99009121A7 /* ZingoTests */,
+				593D6DB71D777C99009121A7 /* ZingoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		593D6D971D777C98009121A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				593D6DA71D777C99009121A7 /* LaunchScreen.storyboard in Resources */,
+				593D6DA41D777C99009121A7 /* Assets.xcassets in Resources */,
+				593D6DA21D777C99009121A7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		593D6DAB1D777C99009121A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		593D6DB61D777C99009121A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		593D6D951D777C98009121A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				593D6D9F1D777C99009121A7 /* ViewController.swift in Sources */,
+				593D6D9D1D777C99009121A7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		593D6DA91D777C99009121A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				593D6DB21D777C99009121A7 /* ZingoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		593D6DB41D777C99009121A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				593D6DBD1D777C99009121A7 /* ZingoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		593D6DAF1D777C99009121A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 593D6D981D777C98009121A7 /* Zingo */;
+			targetProxy = 593D6DAE1D777C99009121A7 /* PBXContainerItemProxy */;
+		};
+		593D6DBA1D777C99009121A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 593D6D981D777C98009121A7 /* Zingo */;
+			targetProxy = 593D6DB91D777C99009121A7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		593D6DA01D777C99009121A7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				593D6DA11D777C99009121A7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		593D6DA51D777C99009121A7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				593D6DA61D777C99009121A7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		593D6DBF1D777C99009121A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		593D6DC01D777C99009121A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		593D6DC21D777C99009121A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Zingo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Grafikos.Zingo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		593D6DC31D777C99009121A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Zingo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Grafikos.Zingo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		593D6DC51D777C99009121A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZingoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Grafikos.ZingoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Zingo.app/Zingo";
+			};
+			name = Debug;
+		};
+		593D6DC61D777C99009121A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZingoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Grafikos.ZingoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Zingo.app/Zingo";
+			};
+			name = Release;
+		};
+		593D6DC81D777C99009121A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZingoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Grafikos.ZingoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Zingo;
+			};
+			name = Debug;
+		};
+		593D6DC91D777C99009121A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZingoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Grafikos.ZingoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Zingo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		593D6D941D777C98009121A7 /* Build configuration list for PBXProject "Zingo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				593D6DBF1D777C99009121A7 /* Debug */,
+				593D6DC01D777C99009121A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		593D6DC11D777C99009121A7 /* Build configuration list for PBXNativeTarget "Zingo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				593D6DC21D777C99009121A7 /* Debug */,
+				593D6DC31D777C99009121A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		593D6DC41D777C99009121A7 /* Build configuration list for PBXNativeTarget "ZingoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				593D6DC51D777C99009121A7 /* Debug */,
+				593D6DC61D777C99009121A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		593D6DC71D777C99009121A7 /* Build configuration list for PBXNativeTarget "ZingoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				593D6DC81D777C99009121A7 /* Debug */,
+				593D6DC91D777C99009121A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 593D6D911D777C98009121A7 /* Project object */;
+}
